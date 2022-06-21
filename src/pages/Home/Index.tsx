@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 export default function Home() {
   return (
     <div>
-        BORA VERDÃO
+      Testando testnado
     </div>
   )
 }
