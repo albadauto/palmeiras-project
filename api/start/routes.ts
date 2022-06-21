@@ -26,4 +26,7 @@ Route.group(() => {
   Route.get('/', async () => {
     return { hello: 'world' }
   })
-}).prefix("api")
+
+    Route.resource("/user", "UsersController").apiOnly();
+    Route.post("/auth", "AuthController.verifyPassword");
+}).prefix("/api")
