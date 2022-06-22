@@ -2,11 +2,20 @@
 .navbar a{
     font-size: 18px !important;
     color: white !important;
+    border-radius: 5px;
+
 }
 
-.navbar {
-    background-color:#008000 !important;
+.navbar a:hover{
+    background-color: white;
+    color: #006437 !important;
 }
+
+
+.navbar {
+    background-color:#006437 !important;
+}
+
 
 
 

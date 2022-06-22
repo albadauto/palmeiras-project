@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button, Container } from 'react-bootstrap'
 
 export default function Home() {
   return (
-    <div>
+    <Container>
       Testando testnado
-    </div>
+    </Container>
   )
 }
