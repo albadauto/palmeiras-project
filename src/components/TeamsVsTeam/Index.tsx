@@ -19,7 +19,6 @@ export default function TeamVsTeam(props: imageModel) {
                     <h1 style={{marginTop:70}}>X</h1>
                 </Col>
                 
-
                 <Col>
                     <Image src={props.imgTeam2} className="img-team-one" /> 
                 </Col>

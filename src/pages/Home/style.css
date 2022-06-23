@@ -14,5 +14,11 @@
 
 
 .btn-ingressos{
-    background-color: #DAA520;
+    background-color: #DAA520 !important;
 }
+
+.sobre-bg-main{
+    background-image: url("../../Assets/bg-home.jpg");
+    font-weight: bold;
+}
+

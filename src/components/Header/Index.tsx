@@ -14,11 +14,11 @@ export default function Header() {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="#action2">Ingressos</Nav.Link>
         <Nav.Link href="#action2">Loja</Nav.Link>
         <Nav.Link href="#action2">Nossa História</Nav.Link>
-        <Nav.Link href="#action2" className="btn-login">Login</Nav.Link>
+        <Nav.Link href="/login" className="btn-login">Login</Nav.Link>
 
       </Nav>
      
