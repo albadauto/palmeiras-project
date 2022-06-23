@@ -18,7 +18,7 @@ export default function Header() {
         <Nav.Link href="#action2">Ingressos</Nav.Link>
         <Nav.Link href="#action2">Loja</Nav.Link>
         <Nav.Link href="#action2">Nossa História</Nav.Link>
-        <Nav.Link href="/login" className="btn-login">Login</Nav.Link>
+        <Nav.Link href="/login">Login</Nav.Link>
 
       </Nav>
      

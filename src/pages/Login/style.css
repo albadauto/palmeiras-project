@@ -1,0 +1,19 @@
+.login-main-container{
+    margin-top: 5em;
+    background-color: #006437;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.login-container{
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+.btn-login{
+    padding: 15px;
+}
