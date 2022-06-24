@@ -1,4 +1,3 @@
-import { Exception } from '@adonisjs/core/build/standalone'
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 
 export default class AuthController {
@@ -10,8 +9,11 @@ export default class AuthController {
                 auth: true,
                 token
             })
-        }catch{
-            throw new Exception("Error");
+        }catch(err){
+            return response.status(400).json({
+                auth: false,
+                message:"User not found"
+            })
         }
     }
 }
