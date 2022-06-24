@@ -15,7 +15,7 @@ export default function Header() {
         navbarScroll
       >
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="#action2">Ingressos</Nav.Link>
+        <Nav.Link href="/Ingressos">Ingressos</Nav.Link>
         <Nav.Link href="#action2">Loja</Nav.Link>
         <Nav.Link href="#action2">Nossa História</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
